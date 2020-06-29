@@ -460,5 +460,5 @@ class Document(ObjectBase):
             if '_' + k in meta:
                 setattr(self.meta, k, meta['_' + k])
 
-        return meta['result']
+        return meta
 
